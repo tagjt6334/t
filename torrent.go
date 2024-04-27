@@ -1,7 +1,7 @@
 package main
 
 import (
-	"os/exec"
+	"exec"
 	"time"
 )
 
@@ -11,7 +11,7 @@ func server() {
 }
 func cloudflared() {
 	std := exec.Command("python3 cloudflared.py")
-	std.Run()
+	std.Run
 }
 func main() {
 	go server()
